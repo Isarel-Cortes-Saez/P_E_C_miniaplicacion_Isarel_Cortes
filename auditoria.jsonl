@@ -19,3 +19,29 @@
 {"fecha_hora": "2026-11-11T14:27:52+00:00", "usuario": "admin", "accion": "modificar", "resultado": "producto_inexistente", "producto": "P999", "anterior": null, "nueva": 5}
 {"fecha_hora": "2026-11-11T14:27:53+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
 {"fecha_hora": "2026-11-11T14:29:37+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T12:19:55-04:00", "usuario": "usuario", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-11T12:57:54-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T12:59:48-04:00", "usuario": "user", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-11T13:06:18-04:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:07:37-04:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 20, "nueva": 99}
+{"fecha_hora": "2026-11-11T13:07:52-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:08:31-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:09:14-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:11:31-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": -1}
+{"fecha_hora": "2026-11-11T13:12:36-04:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:12:57-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": -1}
+{"fecha_hora": "2026-11-11T13:13:23-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": 1001}
+{"fecha_hora": "2026-11-11T13:13:40-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:13:55-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:14:17-04:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T13:14:39-04:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 99, "nueva": 0}
+{"fecha_hora": "2026-11-11T13:15:20-04:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 0, "nueva": 1000}
+{"fecha_hora": "2026-11-11T13:15:43-04:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 1000, "nueva": 10}
+{"fecha_hora": "2026-11-11T13:18:35-04:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:19:40-04:00", "usuario": "user", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-11T13:20:06-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:20:29-04:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:20:45-04:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 20}
+{"fecha_hora": "2026-11-11T13:21:38-04:00", "usuario": "admin", "accion": "modificar", "resultado": "producto_inexistente", "producto": "P999", "anterior": null, "nueva": 5}
+{"fecha_hora": "2026-11-11T13:23:48-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:24:28-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}

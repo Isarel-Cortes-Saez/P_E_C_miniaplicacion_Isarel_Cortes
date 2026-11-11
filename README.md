@@ -1,6 +1,6 @@
 # Inventario académico seguro (COMP 2700)
 
-**Estudiante:** [ESCRIBIR NOMBRE COMPLETO ANTES DE PUBLICAR]
+**Estudiante:** [Isarel M. Cortés Sáez]
 
 Corrección de la base educativa original, conservando Python, terminal (CLI),
 `inventario.json` y `usuarios.json`. No es una aplicación de producción.

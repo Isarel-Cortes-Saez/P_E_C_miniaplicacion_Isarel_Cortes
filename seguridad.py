@@ -1,6 +1,6 @@
 """Funciones listas para integrar: no implementar criptografía propia."""
-from argon2 import PasswordHasher
-from argon2.exceptions import VerificationError, InvalidHashError
+from argon2 import PasswordHasher  # pyright: ignore[reportMissingImports]
+from argon2.exceptions import VerificationError, InvalidHashError  # pyright: ignore[reportMissingImports]
 
 _hasher = PasswordHasher(time_cost=2, memory_cost=19456, parallelism=1)
 
