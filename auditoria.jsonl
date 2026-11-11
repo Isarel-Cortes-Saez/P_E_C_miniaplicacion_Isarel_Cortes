@@ -45,3 +45,4 @@
 {"fecha_hora": "2026-11-11T13:21:38-04:00", "usuario": "admin", "accion": "modificar", "resultado": "producto_inexistente", "producto": "P999", "anterior": null, "nueva": 5}
 {"fecha_hora": "2026-11-11T13:23:48-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
 {"fecha_hora": "2026-11-11T13:24:28-04:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T13:33:50-04:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
