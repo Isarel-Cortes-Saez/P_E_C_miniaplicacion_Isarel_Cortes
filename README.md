@@ -1,6 +1,6 @@
 # Inventario académico seguro (COMP 2700)
 
-**Estudiante:** [Isarel M. Cortés Sáez]
+**Estudiante:** Isarel M. Cortés Sáez
 
 Corrección de la base educativa original, conservando Python, terminal (CLI),
 `inventario.json` y `usuarios.json`. No es una aplicación de producción.
@@ -111,8 +111,8 @@ Se utilizó **ChatGPT (OpenAI, GPT-6)** para revisar los TODO de la base,
 proponer las modificaciones, generar pruebas y comparar su resultado con el
 enunciado. Las sugerencias se verificaron en el entorno de desarrollo con
 `python -m unittest -v pruebas` (10 pruebas aprobadas) y una ejecución
-interactiva real cerrando y abriendo de nuevo el programa. **El estudiante debe
-repetir estas comprobaciones en su propio equipo y tomar las capturas.**
+interactiva real cerrando y abriendo de nuevo el programa. Las evidencias entregadas en Blackboard deben corresponder a las pruebas
+realizadas personalmente y a la versión final publicada en GitHub.
 
 Se descartó confiar solo en ocultar «Modificar» en el menú: eso no protege una
 llamada directa a `modificar_cantidad`. También se evitó registrar directamente
@@ -124,33 +124,45 @@ Fuentes de consulta, además del código base y las instrucciones del profesor:
 - Documentación Python de `json`/`JSONDecodeError`: https://docs.python.org/3.13/library/json.html
 - GitHub Docs, publicación del proyecto local: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
 
-## Publicación y verificación independiente
+## Repositorio público y verificación independiente
 
-Cree primero un repositorio **público y vacío** en GitHub, sin README automático.
-Desde esta carpeta:
+Repositorio: https://github.com/Isarel-Cortes-Saez/P_E_C_miniaplicacion_Isarel_Cortes
 
-```sh
-git init
-git branch -M main
-git add .
-git commit -m "Corregir inventario y controles de seguridad"
-git remote add origin https://github.com/TU_USUARIO/inventario-seguro.git
-git push -u origin main
-git rev-parse HEAD
-```
+El proyecto ya está publicado en la rama `main`. Para obtener el enlace al
+commit exacto de la entrega, abra la sección **Commits** del repositorio y
+copie la dirección del commit final. No es necesario crear otro repositorio.
 
-Sustituya `TU_USUARIO` y el nombre del repositorio. El hash devuelto por
-`git rev-parse HEAD` permite construir la dirección del commit:
-`https://github.com/TU_USUARIO/inventario-seguro/commit/HASH`.
+### Clonación y ejecución desde otra carpeta
 
-En **otra carpeta**, con el URL real:
+Abra PowerShell en una carpeta distinta de la ubicación original del proyecto.
+Ejecute los siguientes comandos uno por uno:
 
-```sh
-cd ..
-git clone https://github.com/TU_USUARIO/inventario-seguro.git inventario-verificacion
+```powershell
+git clone https://github.com/Isarel-Cortes-Saez/P_E_C_miniaplicacion_Isarel_Cortes.git inventario-verificacion
 cd inventario-verificacion
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe app.py
 ```
 
-Aplique la instalación anterior desde `inventario-verificacion` y ejecute
-`app.py` y las pruebas. Tome capturas legibles con su nombre. No incluya
-archivos sensibles reales, `.venv` ni `__pycache__` en el repositorio.
+Escriba su nombre, inicie sesión con una cuenta ficticia y consulte el
+inventario. La versión publicada debe contener P001 = 20, P002 = 15 y P003 = 5.
+Salga con la opción `0` y ejecute las pruebas automatizadas:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest -v pruebas
+```
+
+Tome capturas legibles del comando `git clone` y de la ejecución en la
+carpeta nueva, con el nombre del estudiante visible en la terminal. En la
+pregunta 10 de Blackboard, incluya el enlace al repositorio, el enlace al
+commit final y los resultados reales de las verificaciones.
+
+### Actualizar el repositorio existente
+
+Para modificar únicamente este README en GitHub: abra `README.md`, pulse
+el icono de lápiz **Edit this file**, pegue el contenido revisado,
+seleccione **Commit changes** y confirme la actualización en `main`.
+La actualización genera un commit nuevo: utilice el enlace a ese commit
+final en Blackboard. No incluya `.venv`, `__pycache__`, copias de respaldo
+ni datos personales sensibles en el repositorio.
