@@ -1,0 +1,21 @@
+{"fecha_hora": "2026-11-11T14:26:34+00:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T14:26:34+00:00", "usuario": "user", "accion": "modificar", "resultado": "rechazado_sin_autorizacion", "producto": "P001", "anterior": null, "nueva": 99}
+{"fecha_hora": "2026-11-11T14:26:34+00:00", "usuario": "sin_sesion", "accion": "modificar", "resultado": "rechazado_sin_autorizacion", "producto": "P001", "anterior": null, "nueva": 99}
+{"fecha_hora": "2026-11-11T14:26:35+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T14:27:49+00:00", "usuario": "inexistente", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "user", "accion": "modificar", "resultado": "rechazado_sin_autorizacion", "producto": "P001", "anterior": 10, "nueva": 99}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": -1}
+{"fecha_hora": "2026-11-11T14:27:50+00:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": 1001}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "cantidad_invalida", "producto": "P001", "anterior": null, "nueva": null}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 0}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 0, "nueva": 1000}
+{"fecha_hora": "2026-11-11T14:27:51+00:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 1000, "nueva": 10}
+{"fecha_hora": "2026-11-11T14:27:52+00:00", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 20}
+{"fecha_hora": "2026-11-11T14:27:52+00:00", "usuario": "admin", "accion": "modificar", "resultado": "producto_inexistente", "producto": "P999", "anterior": null, "nueva": 5}
+{"fecha_hora": "2026-11-11T14:27:53+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"fecha_hora": "2026-11-11T14:29:37+00:00", "usuario": "admin", "accion": "login", "resultado": "exitoso"}

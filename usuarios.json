@@ -1,0 +1,12 @@
+[
+  {
+    "usuario": "admin",
+    "rol": "admin",
+    "hash": "$argon2id$v=19$m=19456,t=2,p=1$Da5Y7FBoOQxRDA5gDPAZ3Q$F/DpUNGr7IbQ3lC0BH63o8UQL4nVcLNhcCMDgVjs6AI"
+  },
+  {
+    "usuario": "user",
+    "rol": "user",
+    "hash": "$argon2id$v=19$m=19456,t=2,p=1$TJZ/yO0w7pUR8qFr6jXzFA$Bn5IACJvR2mlIMwODCY6HGftaXg5Zkd/ErFeVIeAtfU"
+  }
+]
